@@ -3,14 +3,6 @@ import signupFactory from '../factories/SignupFactory'
 import signupPage from '../pages/SignupPage';
 describe('Signup', () => {
 
-    // beforeEach(function () {
-    //     cy.log('Tudo aqui é executado sempre ANTES de CADA caso de teste')
-
-    //     cy.fixture('deliver').then((d) => {
-    //         this.deliver = d
-    //     })
-    // })
-
     it('User should be deliver', function () {
 
         var deliver = signupFactory.deliver()
